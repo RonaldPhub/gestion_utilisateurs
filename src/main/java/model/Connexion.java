@@ -17,9 +17,12 @@ import java.util.logging.Logger;
  */
 public class Connexion {
 
-    private static String url = "jdbc:mysql://localhost:3306/ap4";
-    private static String user = "root";
-    private static String pass = "";
+//    private static String url = "jdbc:mysql://localhost:3306/ap4";
+//    private static String user = "root";
+//    private static String pass = "";
+    private static String url = "jdbc:mysql://172.28.37.18:3306/ap4";
+    private static String user = "rpina";
+    private static String pass = "Marthin4889";
 
     private static Connection con = null;
 
@@ -37,5 +40,5 @@ public class Connexion {
         }
         return con;
     }
-    //test
+    //hello
 }
