@@ -16,7 +16,7 @@ import javax.swing.table.AbstractTableModel;
 public class UserListModel extends AbstractTableModel {
 
     private ArrayList<UserModel> userList;
-    private final String[] nomColumn = {"id", "Nom", "Prénom", "Adresse", "Pseudo", "Mot de passe"};
+    private final String[] nomColumn = {"id", "Last name", "name", "Adresse", "Pseudo", "Mot de passe"};
     private UserDAO userDao;
 
     /**
